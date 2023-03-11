@@ -21,7 +21,7 @@ function App() {
         {data.categories.map((el,i) => (<div className='rounded-xl px-2 py-2 bg-slate-800 text-white hover:bg-slate-600' onClick={() => setCategory(i)} key={i}>{el.name}</div>))}
       </div>
       <div className="photos pt-20">
-        {data.collections.filter((el,i) => el.name.toLowerCase().includes(inputValue.toLowerCase()) && (i === catygory || catygory === 0)).map((el,i) => (<Card element={el} key={i}/>))}
+        {data.collections.filter((el,i) => el.name.toLowerCase().includes(inputValue.toLowerCase()) && (el.category === catygory || catygory === 0)).map((el,i) => (<Card element={el} key={i}/>))}
       </div>
     </div>
   );
