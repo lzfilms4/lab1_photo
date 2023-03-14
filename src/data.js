@@ -47,12 +47,6 @@ const data = {
           "https://images.unsplash.com/photo-1488646953014-85cb44e25828?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8Mnx8dHJhdmVsfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=500&q=60",
           
       },
-        {
-        "category": 5,
-        "name": "близняшки Atomic Heart",
-        "photo":
-          "https://playerok.fra1.digitaloceanspaces.com/images/1edbf59c-0294-6c80-e737-60e0973f29b2.jpg"
-      },
       {
         "category": 5,
         "name": "Atomic Heart",
@@ -82,13 +76,6 @@ const data = {
         "name": "Warhammer",
         "photo":
             "https://img4.goodfon.ru/wallpaper/nbig/9/67/blood-angels-space-marine-wh40k-warhammer-40k-voiny-soldaty.jpg"
-      },
-      {
-        "category": 6,
-        "name": "Блич",
-        "photo":
-          "https://kartinkin.net/uploads/posts/2021-07/1626447808_3-kartinkin-com-p-anime-blich-ichigo-anime-krasivo-4.jpg"
-
       },
       {
         "category": 6,
